@@ -14,6 +14,7 @@ WIP:
 * compressed pair to exploit ebo in sparse set and the others
 * isolate view iterator, unwrap iterators in registry ::remove/::erase/::destroy to use the faster solution for non-view iterators
 * meta: use almost always meta handles to accept arguments from eg meta_func::invoke, so as to remove the need for the user to explicitly forward references
+* remove view each<T>(F), each<T>()
 * resource, forward the id to the loader from the cache and if constexpr the call to load, update doc and describe customization points
 * make it possible to create views of the type `view<T, T>`, add get by index and such, allow to register custom pools by name with the registry
 * add user data to type_info
